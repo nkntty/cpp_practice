@@ -23,7 +23,7 @@ int main() {
     }
 
     for (const auto& pair : wordCount) {
-        cout << pair.first << " " << pair.second << endl;
+        cout << pair.first << " " << pair.second << endl;   //.first .second can be used with ITERATOR
     }
 
     return 0;
