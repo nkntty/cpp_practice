@@ -1,3 +1,22 @@
+//Question1//
+The correct answer is b. 
+
+
+
+. 
+Explanation
+The problem describes a two-step operation:
+Reading and storing items: To read 
+ items from a file and store them in a queue, you must perform 
+ enqueue operations. Since a standard enqueue operation takes 
+readingfile :O(N)+ finding Nth :O(N-1)=O(N)
+
+
+
+
+
+
+
 //Question5//
 #include <iostream>
 #include <fstream>
