@@ -83,8 +83,8 @@ int findNth(AVLNode* root, int n) {
 
     int leftSize = root->left ? root->left->size : 0;
 
-    if (n < leftSize) return findNth(root->left, n);
-    else if (n == leftSize) return root->data;
+    if (n < leftSize+1) return findNth(root->left, n);
+    else if (n == leftSize+1) return root->data;
     else return findNth(root->right, n - leftSize - 1);
 }
 
